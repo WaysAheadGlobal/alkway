@@ -140,14 +140,8 @@ textarea {
 /* object-position: center; centers the image, focusing on the middle */
 /* } */
 
-.heroSection {
-  width: 100%; /* or a specific width */
-  height: 500px; /* adjust based on your desired height */
-  background-image: url("../public/heroBackground.jpg");
-  background-size: cover; /* scales the image to cover the container */
-  background-position: center center; /* ensures the image is centered (middle part visible) */
-  background-repeat: no-repeat; /* prevents the image from repeating */
-}
+/* .heroSection {
+ } */
 /* .heroSection {
   background: url("../public/heroBackground.jpg");
   height: 500px;

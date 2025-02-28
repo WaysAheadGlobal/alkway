@@ -9,8 +9,8 @@ import FooterLogoAndDescription from "./FooterComponents/FooterLogoAndDescriptio
 export default function Footer(props) {
   return (
     <>
-      <footer className="bg-[#E5E5E5] pt-10">
-        <div className="flex items-center justify-center gap-20">
+      <footer className="bg-[#E5E5E5] pt-10 ">
+        <div className="flex  flex-row flex-wrap px-4 md:px-0 md:flex-row items-center justify-center gap-8 md:gap-20">
           <FooterLogoAndDescription />
           <Features />
           <Company />
@@ -18,7 +18,7 @@ export default function Footer(props) {
           <StayInLoop />
         </div>
         <div>
-          <p className="text-center applyArethusaPro400 text-[12px] 2xl:text-[14px] leading-[60px]">
+          <p className="text-center pb-3 md:pb-3 applyArethusaPro400 text-[12px] 2xl:text-[14px] leading-[60px]">
             © 2025, ALKWAY Real Estate. All Rights Reserved.
           </p>
         </div>

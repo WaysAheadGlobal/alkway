@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Features(props) {
   return (
     <>
-      <div className="mt-5">
+      <div className="w-[15%] md:w-auto flex flex-col justify-center items-center  md:mt-5">
         <div>
           <p className="applyArethusaPro text-[17px] mb-3 2xl:text-[24px] leading-[32px]">
             Features

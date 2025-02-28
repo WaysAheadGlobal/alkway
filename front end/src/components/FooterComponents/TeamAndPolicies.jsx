@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 export default function TeamAndPolicies() {
   return (
-    <div className="mt-5">
+    <div className="w-[40%]  md:w-auto  md:mt-5">
       <div>
         <p className="applyArethusaPro text-[17px] mb-3 2xl:text-[24px] leading-[32px]">
           Team and policies

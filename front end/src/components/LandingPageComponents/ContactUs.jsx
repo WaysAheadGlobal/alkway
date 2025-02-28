@@ -3,17 +3,17 @@ import contactUsImage from "./contactUsImage.jpg";
 export default function ContactUs(props) {
   return (
     <>
-      <div className="flex mx-14 my-16  bg-[#F9F9F9] items-center rounded-2xl 2xl:rounded-[20px]">
+      <div className="flex flex-col px-4 md:px-0 md:flex-row md:mx-14 md:my-16  bg-[#F9F9F9] items-center rounded-2xl 2xl:rounded-[20px]">
         {/* <div className="flex px-14 py-8 gap-20 bg-white "> */}
 
         <div className="">
           <img
-            className="w-[600px] rounded-2xl 2xl:rounded-[20px]"
+            className="w-[600px] md:w-auto rounded-2xl 2xl:rounded-[20px]"
             src={contactUsImage}
             alt=""
           ></img>
         </div>
-        <div className="flex flex-col gap-3 mx-24">
+        <div className="flex flex-col gap-3 px-4 my-5 md:my-0 w-full md:mx-24">
           <div>
             <p className="applyClassicaProFont300 leading-[14px] uppercase text-[9px] tracking-widest 2xl:text-[12px] text-[#52434A]">
               Contact us
@@ -30,14 +30,14 @@ export default function ContactUs(props) {
 }
 function ContactUsForm() {
   return (
-    <div className="flex flex-col gap-2 ">
+    <div className="flex flex-col gap-2  ">
       <div className="flex gap-5">
         <div>
           <p className="text-[11px] 2xl:text-[13px] applyClassicaProFont700 2xl:leading-[22px]">
             Your Name
           </p>
           <input
-            className="focus:outline-none mt-[2px] rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
+            className="w-[100%] md:w-auto focus:outline-none mt-[2px] rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
             placeholder=""
           ></input>
         </div>
@@ -46,18 +46,18 @@ function ContactUsForm() {
             Your Email
           </p>
           <input
-            className="focus:outline-none mt-[2px] rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
+            className="w-[100%] md:w-auto focus:outline-none mt-[2px] rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
             placeholder=""
           ></input>
         </div>
       </div>
       <div className="flex gap-5">
         <div>
-          <p className="text-[11px] 2xl:text-[13px]   applyClassicaProFont700 2xl:leading-[22px]">
+          <p className="text-[11px]  2xl:text-[13px]   applyClassicaProFont700 2xl:leading-[22px]">
             Your Phone
           </p>
           <input
-            className="focus:outline-none mt-[2px] rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
+            className="focus:outline-none mt-[2px] w-[100%] md:w-auto rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
             placeholder=""
           ></input>
         </div>
@@ -66,7 +66,7 @@ function ContactUsForm() {
             Your City
           </p>
           <input
-            className="focus:outline-none mt-[2px] rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
+            className="focus:outline-none mt-[2px]  w-[100%] md:w-auto rounded-[4px] 2xl:rounded-[5px] border-[1px] border-[#E7E7E7] py-1"
             placeholder=""
           ></input>
         </div>

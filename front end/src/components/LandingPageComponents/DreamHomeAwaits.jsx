@@ -4,22 +4,22 @@ import secondPicture from "./pictures/secondPicture.png";
 export default function DreamHomeAwaits(props) {
   return (
     <>
-      <div className="flex px-14 my-16 ">
-        <div className="flex gap-4 w-[50%] ">
+      <div className="flex flex-col md:flex-row px-4 md:px-14 my-16 ">
+        <div className="flex justify-center md:justify-self-auto gap-4 w-[100%] md:w-[50%] ">
           <img
-            className="w-[300px] h-[450px] rounded-xl"
+            className="w-[150px] h-[225px] md:w-[300px] md:h-[450px] rounded-xl"
             // className="w-[428px] h-[592px] rounded-xl"
             src={firstPicture}
             alt=""
           ></img>
           <img
-            className="w-[300px] h-[450px] rounded-xl mt-16"
+            className="w-[150px] h-[225px] md:w-[300px] md:h-[450px] rounded-xl mt-16"
             // className="w-[428px] h-[592px] rounded-xl mt-16"
             src={secondPicture}
             alt=""
           ></img>
         </div>
-        <div className="w-[50%] flex flex-col px-8">
+        <div className="w-full md:w-[50%] flex flex-col px-4 md:px-8">
           <div className="flex flex-col gap-3">
             <p className="applyClassicaProFont300 text-[9px] tracking-widest 2xl:text-[12px] text-[#52434A]">
               OUR STORY

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export default function StayInLoop() {
   return (
-    <div className="mt-5">
+    <div className="md:mt-5">
       <div>
         <p className="applyArethusaPro uppercase text-[17px] mb-3 2xl:text-[24px] leading-[32px]">
           Stay in loop

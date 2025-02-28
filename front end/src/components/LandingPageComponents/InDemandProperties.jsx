@@ -70,7 +70,7 @@ export default function InDemandProperties(props) {
   return (
     <>
       {/* <div className="py-7"> */}
-      <div className="flex flex-col px-14 my-16 ">
+      <div className="flex flex-col px-3 md:px-14 my-16 ">
         <div className="flex flex-col items-center">
           <p className="applyClassicaProFont300 text-[9px] tracking-widest 2xl:text-[12px] text-[#52434A]">
             DUBAI REAL ESTATE
@@ -104,7 +104,7 @@ export default function InDemandProperties(props) {
 function PropertyCard({ propertyInfo }) {
   const data = propertyInfo;
   return (
-    <div className="w-[20%]">
+    <div className="w-[100] md:w-[20%]">
       <PropertyCardImagesAndIcons imageLink={data.propertyImage} />
       <PropertyInfo propertyInfo={propertyInfo} />
     </div>

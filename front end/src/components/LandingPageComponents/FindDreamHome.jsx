@@ -1,6 +1,6 @@
 export default function FindDreamHome() {
   return (
-    <div className="pl-10">
+    <div className="md:pl-10 px-10">
       <div className="applyArethusaPro500 text-[25px] 2xl:text-[36px] text-white">
         <p>Why Settle For Ordinary When Your</p>
         <p>Dream Home Is Within Reach?</p>

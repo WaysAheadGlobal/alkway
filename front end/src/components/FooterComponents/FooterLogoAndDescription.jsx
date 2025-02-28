@@ -3,7 +3,7 @@ import React from "react";
 export default function FooterLogoAndDescription(props) {
   return (
     <>
-      <div className="w-[20%] flex flex-col gap-8 items-center  ">
+      <div className="w-full md:w-[20%] flex flex-col gap-8 items-center  ">
         <img
           className="mix-blend-multiply   h-[95px]"
           src="logo.svg"

@@ -6,9 +6,9 @@ export default function Navbar(props) {
     <>
       <header>
         {/* <div className="flex items-center justify-between px-[180px]"> */}
-        <div className="flex items-center justify-between px-[150px] py-3">
+        <div className="flex items-center justify-between px-[20px] md:px-[150px] py-3">
           <img className="h-[80px] 2xl:h-[95px]" src="logo.svg"></img>
-          <div className="flex items-center gap-6">
+          <div className="hidden md:visible md:flex items-center gap-6">
             <PageLinks />
             <button className="bg-[#F7F6F7] text-[#1A1A1A]  rounded-full px-5 py-1 flex  gap-2  font-semibold items-center">
               <img
@@ -17,11 +17,11 @@ export default function Navbar(props) {
                 alt="whatsappicon"
               ></img>
               <p className="pt-1 text-[14px] 2xl:text-[18px] applyArethusaPro leading-[30.4px]">
-                {" "}
                 WhatsApp
               </p>
             </button>
           </div>
+          <div className="h-[50px] w-[50px] md:hidden bg-black rounded-full"></div>
         </div>
       </header>
     </>

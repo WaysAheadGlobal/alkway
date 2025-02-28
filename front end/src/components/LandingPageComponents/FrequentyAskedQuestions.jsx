@@ -33,8 +33,8 @@ export default function FrequentyAskedQuestions(props) {
   ];
   return (
     <>
-      <div className="flex px-14 items-center my-16   ">
-        <div className="w-[50%] ml-6 mr-12">
+      <div className="flex  flex-col md:flex-row gap-5 md:gap-0 px-4 md:px-14 items-center my-16   ">
+        <div className="w-full md:w-[50%] md:ml-6 md:mr-12">
           <div className="pl-3 flex flex-col gap-1">
             <p className="applyClassicaProFont300 uppercase text-[9px] tracking-widest 2xl:text-[12px] text-[#52434A]">
               Fequently asked questions
