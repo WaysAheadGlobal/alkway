@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-MediumItalic.eot');
+    src: local('ArethusaPro Medium Italic'), local('ArethusaPro-MediumItalic'),
+        url('ArethusaPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-MediumItalic.woff2') format('woff2'),
+        url('ArethusaPro-MediumItalic.woff') format('woff'),
+        url('ArethusaPro-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-SemiBoldItalic.eot');
+    src: local('ArethusaPro Semi Bold Italic'), local('ArethusaPro-SemiBoldItalic'),
+        url('ArethusaPro-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-SemiBoldItalic.woff2') format('woff2'),
+        url('ArethusaPro-SemiBoldItalic.woff') format('woff'),
+        url('ArethusaPro-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-LightItalic.eot');
+    src: local('ArethusaPro Light Italic'), local('ArethusaPro-LightItalic'),
+        url('ArethusaPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-LightItalic.woff2') format('woff2'),
+        url('ArethusaPro-LightItalic.woff') format('woff'),
+        url('ArethusaPro-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-Book.eot');
+    src: local('ArethusaPro Book'), local('ArethusaPro-Book'),
+        url('ArethusaPro-Book.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-Book.woff2') format('woff2'),
+        url('ArethusaPro-Book.woff') format('woff'),
+        url('ArethusaPro-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-SemiBold.eot');
+    src: local('ArethusaPro Semi Bold'), local('ArethusaPro-SemiBold'),
+        url('ArethusaPro-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-SemiBold.woff2') format('woff2'),
+        url('ArethusaPro-SemiBold.woff') format('woff'),
+        url('ArethusaPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-Regular.eot');
+    src: local('ArethusaPro Regular'), local('ArethusaPro-Regular'),
+        url('ArethusaPro-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-Regular.woff2') format('woff2'),
+        url('ArethusaPro-Regular.woff') format('woff'),
+        url('ArethusaPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-Light.eot');
+    src: local('ArethusaPro Light'), local('ArethusaPro-Light'),
+        url('ArethusaPro-Light.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-Light.woff2') format('woff2'),
+        url('ArethusaPro-Light.woff') format('woff'),
+        url('ArethusaPro-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-RegularItalic.eot');
+    src: local('ArethusaPro-RegularItalic Ita'), local('ArethusaPro-RegularItalic'),
+        url('ArethusaPro-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-RegularItalic.woff2') format('woff2'),
+        url('ArethusaPro-RegularItalic.woff') format('woff'),
+        url('ArethusaPro-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-Bold.eot');
+    src: local('ArethusaPro Bold'), local('ArethusaPro-Bold'),
+        url('ArethusaPro-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-Bold.woff2') format('woff2'),
+        url('ArethusaPro-Bold.woff') format('woff'),
+        url('ArethusaPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-BoldItalic.eot');
+    src: local('ArethusaPro Bold Italic'), local('ArethusaPro-BoldItalic'),
+        url('ArethusaPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-BoldItalic.woff2') format('woff2'),
+        url('ArethusaPro-BoldItalic.woff') format('woff'),
+        url('ArethusaPro-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-ItalicBook.eot');
+    src: local('ArethusaPro Italic Book'), local('ArethusaPro-ItalicBook'),
+        url('ArethusaPro-ItalicBook.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-ItalicBook.woff2') format('woff2'),
+        url('ArethusaPro-ItalicBook.woff') format('woff'),
+        url('ArethusaPro-ItalicBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'ArethusaPro';
+    src: url('ArethusaPro-Medium.eot');
+    src: local('ArethusaPro Medium'), local('ArethusaPro-Medium'),
+        url('ArethusaPro-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ArethusaPro-Medium.woff2') format('woff2'),
+        url('ArethusaPro-Medium.woff') format('woff'),
+        url('ArethusaPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
