@@ -1,11 +1,12 @@
 import React from "react";
-export default function BathRooms() {
+export default function BathRooms({ setNoOfBathrooms }) {
   return (
     <div className="w-[50%]">
       <p className="applyClassicaProFont500 text-[11px] 2xl:text-[13px]  leading-[26px]">
         Bathrooms
       </p>
       <select
+        onChange={(e) => setNoOfBathrooms(e.target.value)}
         className="w-[98%] focus:outline-none py-2 text-[11px] 2xl:text-[13px]  px-2 text-[#696969] rounded-md "
         id="bedrooms"
         name="Bathrooms"

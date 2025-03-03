@@ -8,6 +8,7 @@ import ContactUs from "../components/LandingPageComponents/ContactUs";
 import Footer from "../components/Footer";
 import CloseIcon from "@mui/icons-material/Close";
 export default function LandingPage(props) {
+  console.log(process.env.REACT_APP_API_URL);
   return (
     <>
       <div className="relative">
