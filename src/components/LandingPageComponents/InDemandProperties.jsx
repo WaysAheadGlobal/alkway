@@ -7,7 +7,8 @@ import bathroomIcon from "./propertyCardIcons/bathroomIcon.svg";
 import callIcon from "./propertyCardIcons/call.svg";
 import emailIcon from "./propertyCardIcons/mail.svg";
 import whatsappIcon from "./propertyCardIcons/whatsapp.svg";
-
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 export default function InDemandProperties(props) {
   const propertyData = [
     {
@@ -166,7 +167,7 @@ function PropertyCardImagesAndIcons({ imageLink }) {
 
         backgroundRepeat: "no-repeat",
       }}
-      className="h-[160px] rounded-t-md relative w-full 2xl:h-[220px] 2xl:w-[353px] "
+      className="h-[160px] flex items-center rounded-t-md relative w-full 2xl:h-[220px] 2xl:w-[353px] "
       // className="h-[160px] relative w-[260px] 2xl:h-[220px] 2xl:w-[353px] "
     >
       <div className="absolute top-0 w-full flex gap-1 justify-end px-2 pt-3">
@@ -176,6 +177,10 @@ function PropertyCardImagesAndIcons({ imageLink }) {
         <button className="bg-[#1A1A1A] text-[8px] 2xl:text-[11px] px-2 text-center leading-[20px] applyClassicaProFont rounded-[5px] text-white">
           Active
         </button>
+      </div>
+      <div className="w-full flex justify-between text-white mx-1">
+        <ArrowBackIosIcon />
+        <ArrowForwardIosIcon />
       </div>
       <div className=" absolute bottom-0 text-white flex gap-1 w-full px-3 pb-2">
         <button className="rounded-sm py-1 px-1 propertyCardIcons">

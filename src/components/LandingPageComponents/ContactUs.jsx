@@ -8,9 +8,10 @@ export default function ContactUs(props) {
 
         <div className="">
           <img
-            className="w-[600px] md:w-auto rounded-2xl 2xl:rounded-[20px]"
+            className="w-[600px]  md:w-auto rounded-2xl 2xl:rounded-[20px]"
             src={contactUsImage}
             alt=""
+            loading="lazy"
           ></img>
         </div>
         <div className="flex flex-col gap-3 px-4 my-5 md:my-0 w-full md:mx-24">

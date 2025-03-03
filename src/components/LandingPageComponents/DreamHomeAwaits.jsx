@@ -1,6 +1,6 @@
 import React from "react";
-import firstPicture from "./pictures/firstPicture.png";
-import secondPicture from "./pictures/secondPicture.png";
+import firstPicture from "./pictures/firstPicture.jpg";
+import secondPicture from "./pictures/secondPicture.jpg";
 export default function DreamHomeAwaits(props) {
   return (
     <>
@@ -11,12 +11,14 @@ export default function DreamHomeAwaits(props) {
             // className="w-[428px] h-[592px] rounded-xl"
             src={firstPicture}
             alt=""
+            loading="lazy"
           ></img>
           <img
             className="w-[150px] h-[225px] md:w-[300px] md:h-[450px] rounded-xl mt-16"
             // className="w-[428px] h-[592px] rounded-xl mt-16"
             src={secondPicture}
             alt=""
+            loading="lazy"
           ></img>
         </div>
         <div className="w-full md:w-[50%] flex flex-col px-4 md:px-8">
@@ -29,7 +31,7 @@ export default function DreamHomeAwaits(props) {
             </p>
           </div>
 
-          <div className="applyClassicaProFont300 my-4 flex flex-col gap-4 text-xs 2xl:text-[16px] leading-[26px] 2xl:leading-[30px] text-[#000000] ">
+          <div className="applyClassicaProFont300 text-justify my-4 flex flex-col gap-4 text-xs 2xl:text-[16px] leading-[26px] 2xl:leading-[30px] text-[#000000] ">
             <p>
               At ALKWAY Real Estate, we redefine the way people experience the
               real estate journey. With a passion for providing exceptional

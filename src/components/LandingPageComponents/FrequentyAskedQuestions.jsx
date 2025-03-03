@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import expandIcon from "./expand.svg";
 import collapse from "./collapse.png";
-import faqImage from "./FAQimage.png";
+import faqImage from "./FAQimage.jpg";
 export default function FrequentyAskedQuestions(props) {
   const questionsData = [
     {
@@ -62,6 +62,7 @@ export default function FrequentyAskedQuestions(props) {
             className="w-[600px] rounded-2xl 2xl:rounded-[20px]"
             src={faqImage}
             alt="faq's "
+            loading="lazy"
           ></img>
         </div>
       </div>

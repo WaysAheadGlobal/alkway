@@ -44,7 +44,7 @@ function ContactUsPopUp() {
           className=" w-full duration-500  applyClassicaProFont bg-white text-black py-1 rounded-md"
           // className="applyClassicaProFont500 bg-white w-full py-2"
         >
-          Contact Us.
+          Contact Us
         </button>
       )}
     </div>
@@ -55,7 +55,7 @@ function ContactForm({ toggleDisplayForm }) {
     <>
       <div className="text-white relative duration-500 applyClassicaProFont500 top-0  flex justify-between w-full">
         {/* <div className="text-white relative duration-500 applyClassicaProFont500 top-0 flex justify-between w-full"> */}
-        Contact Us.
+        Contact Us
         <CloseIcon onClick={toggleDisplayForm} />
       </div>
       <div>
@@ -78,7 +78,7 @@ function ContactForm({ toggleDisplayForm }) {
       </div>
       <div>
         <p className="applyClassicaProFont500 text-white text-[11px] 2xl:text-[13px] leading-[26px]">
-          Contact No.
+          Contact No
         </p>
         <input
           className="bg-white opacity-100 py-2 text-[11px] placeholder:text-[#696969] focus:outline-none rounded-md px-2 bg w-full 2xl:text-[13px]"
@@ -86,7 +86,7 @@ function ContactForm({ toggleDisplayForm }) {
         ></input>
       </div>
       <button className=" w-full applyClassicaProFont bg-white text-black mt-4 py-1 rounded-md">
-        Send.
+        Send
       </button>
     </>
   );
