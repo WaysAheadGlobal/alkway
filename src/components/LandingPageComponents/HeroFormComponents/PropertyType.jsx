@@ -14,10 +14,10 @@ export default function PropertyType() {
           Type
         </option>
         {/* <option value="apple">Bedrooms</option> */}
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
+        <option value="Apartments">Apartments</option>
+        <option value="luxury villas">luxury villas</option>
+        <option value="Townhouse">Townhouse</option>
+        {/* <option value="4">4</option> */}
       </select>
       {/* <input placeholder="Enter an address, state, city, area or zip code"></input> */}
     </div>

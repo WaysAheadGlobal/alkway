@@ -4,9 +4,10 @@ import Slider from "@mui/material/Slider";
 import { useState } from "react";
 
 export default function SliderSizes({ maxPrice, setMaxPrice }) {
-  const [range, setRange] = useState("");
+  const [range, setRange] = useState(2);
   function setPriceRange(e) {
     setMaxPrice(e.target.value * 10000);
+    setRange(e.target.value);
     // console.log(e.target.value);
   }
   return (
@@ -29,6 +30,7 @@ export default function SliderSizes({ maxPrice, setMaxPrice }) {
         min="0"
         max="100"
         step="1"
+        value={range}
       ></input>
       {/* <Slider
         size="small"

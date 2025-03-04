@@ -14,7 +14,7 @@ export default function SearchForm() {
   const price = "10000";
   // const [minPrice, setMinPrice] = useState("10000");
 
-  const [maxPrice, setMaxPrice] = useState("");
+  const [maxPrice, setMaxPrice] = useState("20000");
 
   async function searchProperty() {
     console.log(noOfBedrooms, noOfBathrooms);

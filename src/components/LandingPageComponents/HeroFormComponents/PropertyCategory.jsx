@@ -14,10 +14,11 @@ export default function PropertyCategory() {
           Category
         </option>
         {/* <option value="apple">Bedrooms</option> */}
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
+        <option value="Buy">Buy</option>
+        <option value="Rent">Rent</option>
+        <option value="Off Plans">Off Plans</option>
+        <option value="Commercial">Commercial</option>
+        <option value="Luxury">Luxury</option>
       </select>
       {/* <input placeholder="Enter an address, state, city, area or zip code"></input> */}
     </div>
